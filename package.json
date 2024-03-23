@@ -1,0 +1,85 @@
+{
+  "name": "voluptatemodio",
+  "version": "1.0.0",
+  "author": "LaurenHagenes",
+  "description": "A mini router X ui kit with ts",
+  "main": "./client/index.ts",
+  "exports": {
+    ".": "./client/index.ts",
+    "./client": "./client",
+    "./react": "./react/index.ts",
+    "./react/wrapper": "./react/wrapper.ts",
+    "./extra": "./client/extra.ts",
+    "./html": "./client/html.ts",
+    "./svg": "./client/svg.ts",
+    "./server": "./server",
+    "./server/client": "./server/client/index.ts",
+    "./bundle": "./index.js",
+    "./bundle/react": "./react/index.js",
+    "./bundle/extra": "./extra/index.js",
+    "./bundle/html": "./html/index.js",
+    "./bundle/svg": "./svg/index.js"
+  },
+  "files": [
+    "client/",
+    "server/",
+    "dist/",
+    "html/",
+    "react/",
+    "bin/",
+    "extra/",
+    "svg/",
+    "types/",
+    "bundle/",
+    "index.d.ts",
+    "index.js"
+  ],
+  "bin": {
+    "rayous": "bin/rayous.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZechariahWintheiser/voluptatemodio.git"
+  },
+  "scripts": {
+    "start": "bun --watch run ./server/server.ts"
+  },
+  "keywords": [
+    "rayous",
+    "guilib",
+    "widget",
+    "dolore",
+    "minus",
+    "facere",
+    "ea",
+    "ut",
+    "sit",
+    "builder",
+    "build",
+    "backend",
+    "eius",
+    "framework"
+  ],
+  "license": "MIT",
+  "typings": "./types/index.d.ts",
+  "type": "module",
+  "dependencies": {
+    "console": "^0.7.2",
+    "itty-router": "^4.0.23",
+    "macy": "^2.5.1",
+    "postcss": "^8.4.31",
+    "postcss-url": "^10.1.3",
+    "sass": "^1.64.1",
+    "schema-utils": "^4.2.0",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2"
+  },
+  "optionalDependencies": {
+    "bun": "^1.0.7",
+    "daisyui": "^4.4.19"
+  },
+  "bugs": {
+    "url": "https://github.com/ZechariahWintheiser/voluptatemodio.git/issues"
+  },
+  "homepage": "https://github.com/ZechariahWintheiser/voluptatemodio.git"
+}
